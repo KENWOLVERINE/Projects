@@ -227,27 +227,33 @@ html{
       font-size: 5vh;
       padding-left: 5vh;
       color: #fff;
+      position: absolute;
+      top: 15vh;
 }
 #text{
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: 3vh;
       padding-left: 5vh;
-      color: #fff;     
+      color: #fff;   
+      position: absolute;
+      top: 42vh;  
 }
 hr{
    height: 5px;
    width: 270px;
    border: 0 none;
    background-color: #fff;
-   position:relative;
+   position:absolute;
    right: 17vh;
+   bottom: 32vh;
 }
+
 .btn-right{
       height: 50px;
       width: 50px;
       position: relative;
       left: 98vh;
-      bottom: 20vh;
+      bottom: -16vh;
       z-index: 12;
 
 }
@@ -268,7 +274,7 @@ hr{
       top: 14vh; 
       justify-content: center;
       z-index: 2;  
-      display: block;
+      display: none;
 }
 #college{
       font-family: Arial, Helvetica, sans-serif;
